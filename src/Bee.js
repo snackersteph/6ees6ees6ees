@@ -1,9 +1,12 @@
-class Bee {
+class Bee extends Grub {
   // TODO..
   constructor () {
-    this.age = 0;
-    this.color = "pink";
-    this.food = "jelly";
-    this.eat
+    super();
+    this.age = 5;
+    this.color = "yellow";
+    this.job = "Keep on growing"
+  }
+  eat () {
+    super.eat ();
   }
 };
